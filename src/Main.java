@@ -1,7 +1,5 @@
 public class Main {
 
-    int[] arr = generateRandomArray();
-
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
         int[] arr = new int[30];
@@ -44,8 +42,8 @@ public class Main {
         int sumAll = 0;
         for (int s = 0; s < newArray.length; s++) {
             sumAll = sumAll + newArray[s];
-            average = sumAll / 30;
         }
+        average = sumAll / 30;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
         //Задание 4
